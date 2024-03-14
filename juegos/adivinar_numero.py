@@ -3,7 +3,7 @@ import random
 def adivinar_numero():
     
     def chequear(n):
-        texto = "Le achuntaste"
+        texto = "Le achuntaste!"
         n = int(n)
         numero = random.randint(1,10)
         if numero == n:
