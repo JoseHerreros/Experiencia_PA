@@ -14,7 +14,9 @@ def adivinar_par_o_impar():
     correcto = revisar(n)
     if correcto == respuesta:
         print(f"CORRECTO, ganaste. El número era: {n}")
-        return
+        
     else:
         print(f"INCORRECTO, perdiste. El número era: {n}")
-        return
+        
+    input("Aprete cualquier tecla para volver al menu")
+    return

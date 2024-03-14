@@ -35,6 +35,8 @@ def juego_del_dado():
         print(gana_usuario)
     else:
         print(gana_compu)
+        
+    input("Aprete cualquier tecla para volver al menu")
     return
 
     """

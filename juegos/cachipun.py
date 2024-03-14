@@ -17,4 +17,5 @@ def cachipun():
     else:
         print("Ganaste ;)")
     
+    input("Aprete cualquier tecla para volver al menu")
     return

@@ -9,4 +9,6 @@ def memoria():
         print("CORRECTO! Ganaste")
     else:
         print("INCORRECTO, Intenta nuevamente")
+        
+    input("Aprete cualquier tecla para volver al menu")
     return
