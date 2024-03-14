@@ -15,4 +15,4 @@ def adivinar_numero():
     print("Introduce un numero del 1 al 10")
     a = input()
     chequear(a)
-    
+    return
